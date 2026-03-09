@@ -1,119 +1,103 @@
-# GrabKart🛒
-MERN Stack Online Grocery Delivery Platform
+# GrabKart 🛒
+### MERN Stack Online Grocery Delivery Platform
 
-GrabKart is a full-stack online grocery shopping platform built using the MERN stack (MongoDB, Express.js, React.js, Node.js). The platform connects customers and local grocery sellers through a simple, efficient, and user-friendly digital marketplace.
+GrabKart is a full-stack online grocery shopping platform built using the **MERN stack (MongoDB, Express.js, React.js, Node.js)**. The platform connects customers and local grocery sellers through a simple, efficient, and user-friendly digital marketplace.
 
-Customers can browse grocery products, check real-time availability, add items to their cart, and place orders using secure payment methods. On the other hand, sellers can manage their products, inventory, and customer orders through an admin dashboard.
+Customers can browse grocery products, check real-time availability, add items to their cart, and place orders using secure payment methods. Sellers can manage their products, inventory, and customer orders through an admin dashboard.
 
-The project demonstrates modern full-stack development concepts including REST APIs, authentication, payment integration, and responsive UI design.
+This project demonstrates modern full-stack development concepts including **REST APIs, authentication, payment integration, and responsive UI design.**
 
-🚀 Features
+---
 
-User registration and login with JWT authentication
+## 🚀 Features
 
-Browse grocery products with price and availability
+- User Registration and Login using **JWT Authentication**
+- Browse grocery products with price and availability
+- Add products to **Cart**
+- Checkout and **Place Orders**
+- **Stripe Payment Gateway** integration
+- Manage delivery **Addresses**
+- View **Order History**
+- **Admin/Seller Dashboard**
+- Add, update, and manage products
+- Track and manage customer orders
+- Fully **Responsive UI** built with Tailwind CSS
 
-Add products to cart and checkout
+---
 
-Stripe payment gateway integration
+## 🛠 Tech Stack
 
-Manage delivery addresses
+### Frontend
+- React.js  
+- Tailwind CSS  
 
-View order history
+### Backend
+- Node.js  
+- Express.js  
 
-Admin dashboard for sellers
+### Database
+- MongoDB  
 
-Add, update, and manage products
+### Authentication
+- JWT (JSON Web Token)  
+- Bcrypt Password Hashing  
 
-Track and manage customer orders
+### Payment Gateway
+- Stripe  
 
-Responsive UI built with Tailwind CSS
+### Deployment
+- Vercel  
 
-🛠 Tech Stack
+---
 
-Frontend
-
-React.js
-
-Tailwind CSS
-
-Backend
-
-Node.js
-
-Express.js
-
-Database
-
-MongoDB
-
-Authentication
-
-JWT (JSON Web Token)
-
-Bcrypt password hashing
-
-Payment
-
-Stripe
-
-Deployment
-
-Vercel
-
-📌 System Architecture
+## 📌 System Architecture
 
 GrabKart follows a modular MERN architecture:
 
-Frontend: React-based client application
+- **Frontend:** React-based client application
+- **Backend:** REST APIs built with Node.js and Express.js
+- **Database:** MongoDB stores users, products, orders, and addresses
+- **Payment:** Secure Stripe payment integration
+- **Authentication:** JWT-based login and authorization system
 
-Backend: REST API built with Express.js
+---
 
-Database: MongoDB for storing users, products, and orders
+## 📦 Core Modules
 
-Payment: Secure Stripe payment integration
+- User Authentication
+- Product Management
+- Shopping Cart
+- Order Processing
+- Payment Integration
+- Admin Product Dashboard
 
-Authentication: JWT-based secure login system
+---
 
-📦 Core Modules
+## 🔮 Future Enhancements
 
-User Authentication
+- AI-based product recommendation system  
+- Voice search for products  
+- Smart cart suggestions  
+- AI chatbot for customer support  
+- Push notifications for order updates  
+- Inventory alerts for sellers  
 
-Product Management
+---
 
-Shopping Cart
+## 📷 Screenshots
 
-Order Processing
+The project includes multiple UI screens such as:
 
-Payment Integration
+- Landing Page  
+- Login / Signup Page  
+- Product Listing Page  
+- Cart Page  
+- Admin Dashboard  
+- Order Management Panel  
 
-Admin Product Dashboard
+---
 
-🔮 Future Enhancements
 
-AI-based product recommendation system
 
-Voice search for products
-
-Smart cart suggestions
-
-Chatbot customer support
-
-Push notifications for order updates
-
-Inventory alerts for sellers
-
-📷 Screenshots
-
-Project screenshots include:
-
-Landing Page
-
-Product Listing
-
-Cart Page
-
-Admin Dashboard
-
-Order Management Panel
-
+Project Link:  
+https://github.com/navrazsingh2345/GrabKart
